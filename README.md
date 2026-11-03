@@ -1,9 +1,32 @@
-# React TypeScript Starter Pack
+# Phone Catalogue
+  - A modern E-commerce product catalog built with React, TypeScript, and SCSS, featuring a responsive design aligned with Figma specs, cart management, favorites, and detailed product views.
 
-To use this template click `Use this template`
+# Live Preview
+  - [DEMO LINK](https://artemnosachenko.github.io/phone-catalogue/)
 
-### Available Scripts
+# Technologies Used
+  - React
+  - TypeScript
+  - SCSS
+  - Vite
+  - ESLint & Stylelint
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+# Getting Started
+  **Prerequisites**
+  - Make sure you have Node.js and npm installed on your computer.
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+  **Installation**
+  1. Clone the repository:
+    - git clone https://github.com/ArtemNosachenko/phone-catalogue.git
+  2. Navigate to the project directory:
+    - cd phone-catalogue
+  3. Install the dependencies:
+    - npm install
+  4. Start the development server:
+    - npm start
+
+# Features
+  - Product catalog with filtering, sorting, and pagination (Phones, Tablets, Accessories).
+  - Detailed product page with interactive image gallery, color/capacity variants, and full specifications.
+  - Shopping cart with quantity adjustment and total calculation.
+  - Favorites wishlist functionality.
