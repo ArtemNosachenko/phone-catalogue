@@ -1,11 +1,11 @@
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { CartProvider } from './context/CartContext/CartContext';
 import { FavoritesProvider } from './context/FavoritesContext/FavoritesContext';
 import { App } from './App';
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-  <Router basename={import.meta.env.PROD ? '/phone-catalogue' : '/'}>
+  <Router>
     <CartProvider>
       <FavoritesProvider>
         <App />
